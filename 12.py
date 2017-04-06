@@ -5,12 +5,11 @@ def tri(n):
     return sum
 
 def factor(n):
-    a = []
+    a = 0
     for i in range(1,int(n**.5)+1):
         if (n%i == 0):
-            a.append(i)
-            a.append(n/i)
-    return len(a)
+            a += 2
+    return a
 
 i = 1
 bool = True
