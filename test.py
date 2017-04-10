@@ -1,1 +1,2 @@
-
+def lattice(n):
+    
